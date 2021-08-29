@@ -1,0 +1,1 @@
+{"version":3,"file":"getStudantsByID.js","sourceRoot":"","sources":["../../src/services/getStudantsByID.ts"],"names":[],"mappings":";;;;;;;;;;;;AAAA,mDAA+C;AAExC,MAAM,eAAe,GAAG,CAAM,EAAS,EAAC,EAAE;IAC7C,MAAM,MAAM,GAAG,MAAM,IAAA,uBAAU,EAAC,SAAS,CAAC;SACzC,KAAK,CAAC,EAAC,EAAE,EAAC,CAAC,CAAA;IACZ,OAAO,MAAM,CAAC,CAAC,CAAC,CAAA;AACpB,CAAC,CAAA,CAAA;AAJY,QAAA,eAAe,mBAI3B"}

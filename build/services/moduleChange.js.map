@@ -1,0 +1,1 @@
+{"version":3,"file":"moduleChange.js","sourceRoot":"","sources":["../../src/services/moduleChange.ts"],"names":[],"mappings":";;;;;;;;;;;;AAAA,mDAA+C;AAExC,MAAM,YAAY,GAAG,CAAM,EAAS,EAAC,SAAgB,EAAC,EAAE;IAC3D,MAAM,IAAA,uBAAU,EAAC,OAAO,CAAC;SACxB,MAAM,CAAC;QACJ,MAAM,EAAC,SAAS;KACnB,CAAC;SACD,KAAK,CAAC,EAAC,EAAE,EAAC,CAAC,CAAA;AAChB,CAAC,CAAA,CAAA;AANY,QAAA,YAAY,gBAMxB"}

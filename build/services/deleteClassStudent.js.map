@@ -1,0 +1,1 @@
+{"version":3,"file":"deleteClassStudent.js","sourceRoot":"","sources":["../../src/services/deleteClassStudent.ts"],"names":[],"mappings":";;;;;;;;;;;;AAAA,mDAA+C;AAExC,MAAM,kBAAkB,GAAG,CAAO,EAAU,EAAE,EAAE;IACrD,MAAM,IAAA,uBAAU,EAAC,SAAS,CAAC;SACxB,MAAM,CAAC;QACN,QAAQ,EAAE,IAAI;KACf,CAAC;SACD,KAAK,CAAC,EAAE,EAAE,EAAE,CAAC,CAAA;AAClB,CAAC,CAAA,CAAA;AANY,QAAA,kBAAkB,sBAM9B"}

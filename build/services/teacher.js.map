@@ -1,0 +1,1 @@
+{"version":3,"file":"teacher.js","sourceRoot":"","sources":["../../src/services/teacher.ts"],"names":[],"mappings":";;;;;;;;;;;;AAAA,mDAA+C;AAExC,MAAM,SAAS,GAAG,CAAO,IAAY,EAAE,KAAa,EAAE,UAAgB,EAAE,EAAE;IAC7E,MAAM,IAAA,uBAAU,EAAC,SAAS,CAAC;SACtB,MAAM,CAAC;QACJ,IAAI,EAAE,IAAI;QACV,KAAK,EAAE,KAAK;QACZ,UAAU,EAAE,UAAU;KACzB,CAAC,CAAA;AACV,CAAC,CAAA,CAAA;AAPY,QAAA,SAAS,aAOrB"}
