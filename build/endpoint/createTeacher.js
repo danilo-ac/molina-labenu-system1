@@ -10,16 +10,34 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.createTeachers = void 0;
-const teacher_1 = require("../services/teacher");
+const connection_1 = require("../data/connection");
 function createTeachers(req, res) {
     return __awaiter(this, void 0, void 0, function* () {
+        console.log("oi");
         try {
-            const { name, email, birth_date } = req.body;
-            if (!name || !email || !birth_date) {
+            const { name, email, birth_date, skill_name } = req.body;
+            if (!name || !email || !birth_date || !skill_name) {
                 res.statusCode = 422;
-                throw "Dude.. put your'name', 'email' and 'address' please";
+                throw "Dude.. put your'name', 'email', 'address' and 'skill_name' please";
             }
-            yield (0, teacher_1.teacherSS)(name, email, birth_date);
+            const result = yield connection_1.connection("teacher")
+                .insert({
+                name: name,
+                email: email,
+                birth_date: birth_date
+            });
+            console.log(result);
+            yield connection_1.connection("skill")
+                .insert({
+                name: skill_name
+            });
+            const teacherId = yield connection_1.connection.raw(`SELECT id FROM teacher WHERE email="${email}"`);
+            const skillId = yield connection_1.connection.raw(`SELECT id FROM skill WHERE name="${skill_name}"`);
+            yield connection_1.connection("teacher_skill")
+                .insert({
+                teacher_id: teacherId[0][0].id,
+                skill_id: skillId[0][0].id
+            });
             res.status(200).send(`Teacher created successfully"`);
         }
         catch (error) {
