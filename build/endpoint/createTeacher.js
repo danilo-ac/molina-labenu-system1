@@ -24,7 +24,8 @@ function createTeachers(req, res) {
                 .insert({
                 name: name,
                 email: email,
-                birth_date: birth_date
+                birth_date: birth_date,
+                skill_name: skill_name,
             });
             console.log(result);
             yield connection_1.connection("skill")
